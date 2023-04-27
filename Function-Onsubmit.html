@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Function Onubmit </title>
+</head>
+
+<!-- Form na under jeta bhi input hase e na mate onsubmit kaam aave -->
+
+<body>
+
+    <form action="" onsubmit="hrme(name,he)">
+        <input type="text" name="" id="name" value="">
+        <input type="text" name="" id="he">
+        <input type="submit">
+    </form>
+
+    <script>
+        na = document.getElementById('name')
+        console.log(na)
+        console.log(na.value)
+
+        function hrme(e, k) {
+            if (e.value == "") {
+                alert('Requred...!')
+            }
+            if (k.value == "") {
+                alert('Requred...!')
+            }
+        }
+    </script>
+</body>
+
+</html>
